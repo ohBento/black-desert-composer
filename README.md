@@ -4,7 +4,7 @@ Public installers + auto-updater manifest for **Black Desert Composer**, a deskt
 
 ## Download
 
-**[⬇ Download the latest version](https://github.com/ohBento/black-desert-composer-releases/releases/latest)**
+**[⬇ Download the latest version](https://github.com/ohBento/black-desert-composer/releases/latest)**
 
 On the latest release page, download the file ending in **`.msi`** and run it. (The `.sig` and `latest.json` files next to it are for the auto-updater — you don't need them.)
 
