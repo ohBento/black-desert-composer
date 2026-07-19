@@ -14,6 +14,20 @@ Windows only — Windows 10 (version 1803+) or Windows 11. The WebView2 runtime 
 
 The Audio-to-MIDI converter works out of the box. To additionally split a song into per-instrument stems before transcription, install [Python](https://www.python.org/) and run `pip install demucs`. The app detects it automatically; without it, stem separation is simply skipped.
 
+## Heads up: playback is a guide, not an exact preview
+
+The in-app sound and note editor help you *arrange* a track — they are not a
+faithful preview of how it plays in Black Desert Online:
+
+- **Instrument sounds** are approximations played through the app's own audio
+  engine. They will **not** sound like the real in-game instruments — use them
+  as a reference for pitch and timing, not for tone.
+- **The note editor** is a general guide for laying out your song, **not** a
+  1:1 recreation of the in-game result. Expect differences between what you
+  hear in the app and what you hear on your in-game instrument.
+
+Get it close here, then fine-tune in-game.
+
 ## For maintainers
 
 Don't edit releases here by hand — they're published by the source repo's CI on every `v*` tag.
